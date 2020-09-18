@@ -1,7 +1,7 @@
 package com.techreturners.cats;
-	public class DomesticCat extends WildCat {
+	public class DomesticCat extends Animal {
 	public DomesticCat() {
-	  //call wildcat constructor
+	  //call animal constructor
 	  super(false, "Purrrrrrr", false, 23, "domestic");
 	  }
 	  //in case the cat is full the sound should be diffirent

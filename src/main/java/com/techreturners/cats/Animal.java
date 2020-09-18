@@ -1,21 +1,20 @@
 package com.techreturners.cats;
-	import sun.net.www.content.text.plain;
-	public class WildCat implements Cat {
+	public class Animal implements Cat {
 	  private boolean sleep;
 	  private String eat;
-	  private boolean run;
+		private boolean run;
 	  private int height;
 	  private String catSetting;
-	public WildCat(
+	public Animal(
 	    boolean sleep,
 	    String eat,
-	    boolean run,
+			boolean run,
 	    int height,
 	    String catSetting
 	  ) {
 	    this.sleep = sleep;
 	    this.eat = eat;
-	    this.run = run;
+			this.run = run;
 	    this.height = height;
 	    this.catSetting = catSetting;
 	  }
@@ -30,11 +29,12 @@ package com.techreturners.cats;
 	  public boolean isAsleep() {
 	    return this.sleep;
 	  }
-	 //return is cat eating / running
+	 //return is cat eating
 	  public String eat() {
 	    return this.eat;
 	  }
-	  public boolean run() {
+
+		public boolean run() {
 	    return this.run = true;
 	  }
 	  // get cat's type and height
@@ -51,4 +51,4 @@ package com.techreturners.cats;
 	 public void Setheight(int height) {
 	    this.height = height;
 	  }
-	}
+}
