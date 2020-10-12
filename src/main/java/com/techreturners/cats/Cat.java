@@ -6,7 +6,8 @@ public interface Cat {
   	  public void wakeUp();
   	  public boolean isAsleep();
   	  //return is cat eating
-  	  public String eat();
+	  public String eat();
+	  public boolean run();
   	  // get cat's type and height
   	  public String getSetting();
   	  public int getAverageHeight();

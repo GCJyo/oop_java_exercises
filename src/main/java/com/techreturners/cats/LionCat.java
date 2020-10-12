@@ -1,7 +1,7 @@
 package com.techreturners.cats;
-	public class LionCat extends Animal {
+	public class LionCat extends WildCat {
 	public LionCat() {
-	   //call Animal constructor
+	   //call WildCat constructor
 	   super(true, "Roar!!!!", false, 1100, "LionCat");
 	  }
 	}

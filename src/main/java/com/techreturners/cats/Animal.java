@@ -1,20 +1,21 @@
 package com.techreturners.cats;
-	public class Animal implements Cat {
+	public class WildCat implements Cat {
 	  private boolean sleep;
 	  private String eat;
-		private boolean run;
+	  private boolean run;
 	  private int height;
 	  private String catSetting;
-	public Animal(
+	  
+	  public WildCat(
 	    boolean sleep,
 	    String eat,
-			boolean run,
+		boolean run,
 	    int height,
 	    String catSetting
 	  ) {
 	    this.sleep = sleep;
 	    this.eat = eat;
-			this.run = run;
+		this.run = run;
 	    this.height = height;
 	    this.catSetting = catSetting;
 	  }
@@ -29,7 +30,7 @@ package com.techreturners.cats;
 	  public boolean isAsleep() {
 	    return this.sleep;
 	  }
-	 //return is cat eating
+	  //return is cat eating
 	  public String eat() {
 	    return this.eat;
 	  }
@@ -44,11 +45,11 @@ package com.techreturners.cats;
 	  public int getAverageHeight() {
 	    return this.height;
 	  }
-	 //Set eat and height for the cat
-	 public void SetEat(String eat) {
+	  //Set eat and height for the cat
+	  public void SetEat(String eat) {
 	    this.eat = eat;
 	  }
-	 public void Setheight(int height) {
+	  public void Setheight(int height) {
 	    this.height = height;
 	  }
 }
