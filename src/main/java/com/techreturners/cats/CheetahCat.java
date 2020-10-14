@@ -1,7 +1,7 @@
 package com.techreturners.cats;
+	  //call WildCat constructor	
       public class CheetahCat extends WildCat {
-		public CheetahCat() {
-	    //call WildCat constructor
-	    super(true, "Zzzzzzz", true, 900, "CheetahCat");
-	  }
-	}
+			public CheetahCat() {
+					super(true, "Zzzzzzz", true, 900, "CheetahCat");
+	  			}
+		}
