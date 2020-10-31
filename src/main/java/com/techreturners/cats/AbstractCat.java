@@ -1,13 +1,13 @@
 package com.techreturners.cats;
 
-public class WildCat implements Cat {
+public class AbstractCat implements Cat {
     private boolean sleep;
     private String eat;
     private boolean run;
     private int height;
     private String catSetting;
 
-    public WildCat(boolean sleep, String eat, boolean run, int height, String catSetting) {
+    public AbstractCat(boolean sleep, String eat, boolean run, int height, String catSetting) {
         this.sleep = sleep;
         this.eat = eat;
         this.run = run;
